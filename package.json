@@ -1,0 +1,31 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "\"# Api-tralala-nodejs\"",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NATHANHERNANDEZ14/Api-tralala-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NATHANHERNANDEZ14/Api-tralala-nodejs/issues"
+  },
+  "homepage": "https://github.com/NATHANHERNANDEZ14/Api-tralala-nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
