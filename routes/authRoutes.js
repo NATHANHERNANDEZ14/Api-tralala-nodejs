@@ -20,7 +20,7 @@ router.get('/user', auth, authController.getUserInfo);
 
 // @route   PUT api/auth/user
 // @desc    Actualizar información del usuario
-// @access  Private
+// @access  Private   
 router.put('/user', auth, authController.updateUserInfo);
 
 module.exports = router;
